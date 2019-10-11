@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>Gorillaz Store</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="https://data.whicdn.com/images/166291401/large.gif">
+
+    <!-- Core Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- ##### Preloader ##### -->
+    <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="circle-preloader">
+            <img src="https://i.redd.it/ibaqb9zpq4b11.png" alt="">
+        </div>
+    </div>
+
+    <!-- ##### Header Area Start ##### -->
+    <header class="header-area">
+        <!-- Navbar Area -->
+        <div class="musica-main-menu">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container-fluid">
+                    <!-- Menu -->
+                    <nav class="classy-navbar justify-content-between" id="musicaNav">
+
+                        <!-- Nav brand -->
+                        <a href="index.html" class="nav-brand"><img src="https://data.whicdn.com/images/166291401/large.gif" alt=""></a>
+
+                        <!-- Navbar Toggler -->
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        </div>
+
+                        <!-- Menu -->
+                        <div class="classy-menu">
+
+                            <!-- close btn -->
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                            </div>
+
+                            <!-- Nav Start -->
+                            <div class="classynav">
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="about-us.html">About us</a></li>
+                                    <li><a href="concert-tours.html">Shows</a></li>
+                                    <li><a href="contact.html">Store</a></li>
+                                </ul>
+
+                                <!-- Social Button -->
+                                <div class="top-social-info">
+                                  <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                  <a href="#"><i class="fa fa-snapchat" aria-hidden="true"></i></a>
+                                  <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                  <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                </div>
+
+                            </div>
+                            <!-- Nav End -->
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ##### Header Area End ##### -->
+
+    <!-- ##### Breadcumb Area Start ##### -->
+    <div class="breadcumb-area bg-img bg-overlay2" style="background-image: url(https://mymodernmet.com/wp/wp-content/uploads/archive/MGoV-yurw1GhlZOKqJK2_1082026097.jpeg);">
+        <div class="bradcumbContent">
+            <h2>Store</h2>
+        </div>
+    </div>
+    <!-- bg gradients -->
+    <div class="bg-gradients"></div>
+    <!-- ##### Breadcumb Area End ##### -->
+
+
+
+    <!-- Content page -->
+
+<br>
+<br>
+
+<section class="bgwhite p-t-55 p-b-65">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6 col-md-4 col-lg-3 p-b-50">
+        <div class="leftbar p-r-20 p-r-0-sm">
+          <!--  -->
+          <h4 class="m-text14 p-b-7">
+            Categories
+          </h4>
+
+          <ul class="p-b-54">
+            <li class="p-t-4">
+              <a href="#" class="s-text13 active1">
+                All
+              </a>
+            </li>
+
+            <li class="p-t-4">
+              <a href="#" class="s-text13">
+                Apparel
+              </a>
+            </li>
+
+            <li class="p-t-4">
+              <a href="#" class="s-text13">
+                Music
+              </a>
+            </li>
+
+            <li class="p-t-4">
+              <a href="#" class="s-text13">
+                Accessories
+              </a>
+            </li>
+
+            <li class="p-t-4">
+              <a href="#" class="s-text13">
+                Tour
+              </a>
+            </li>
+          </ul>
+
+          <!--  -->
+          <h4 class="m-text14 p-b-32">
+            Filters
+          </h4>
+
+          <div class="filter-price p-t-22 p-b-50 bo3">
+            <div class="m-text15 p-b-17">
+              Price
+            </div>
+
+            <div class="wra-filter-bar">
+              <div id="filter-bar"></div>
+            </div>
+
+            <div class="flex-sb-m flex-w p-t-16">
+              <div class="w-size11">
+                <!-- Button -->
+                <button class="flex-c-m size4 bg7 bo-rad-15 hov1 s-text14 trans-0-4">
+                  Filter
+                </button>
+              </div>
+
+              <div class="s-text3 p-t-10 p-b-10">
+                Range: $<span id="value-lower">0</span> - $<span id="value-upper">250</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="filter-color p-t-22 p-b-50 bo3">
+            <div class="m-text15 p-b-12">
+              Color
+            </div>
+
+            <ul class="flex-w">
+              <li class="m-r-10">
+                <input class="checkbox-color-filter" id="color-filter1" type="checkbox" name="color-filter1">
+                <label class="color-filter color-filter1" for="color-filter1"></label>
+              </li>
+
+              <li class="m-r-10">
+                <input class="checkbox-color-filter" id="color-filter2" type="checkbox" name="color-filter2">
+                <label class="color-filter color-filter2" for="color-filter2"></label>
+              </li>
+
+              <li class="m-r-10">
+                <input class="checkbox-color-filter" id="color-filter3" type="checkbox" name="color-filter3">
+                <label class="color-filter color-filter3" for="color-filter3"></label>
+              </li>
+
+              <li class="m-r-10">
+                <input class="checkbox-color-filter" id="color-filter4" type="checkbox" name="color-filter4">
+                <label class="color-filter color-filter4" for="color-filter4"></label>
+              </li>
+
+              <li class="m-r-10">
+                <input class="checkbox-color-filter" id="color-filter5" type="checkbox" name="color-filter5">
+                <label class="color-filter color-filter5" for="color-filter5"></label>
+              </li>
+
+              <li class="m-r-10">
+                <input class="checkbox-color-filter" id="color-filter6" type="checkbox" name="color-filter6">
+                <label class="color-filter color-filter6" for="color-filter6"></label>
+              </li>
+
+              <li class="m-r-10">
+                <input class="checkbox-color-filter" id="color-filter7" type="checkbox" name="color-filter7">
+                <label class="color-filter color-filter7" for="color-filter7"></label>
+              </li>
+            </ul>
+          </div>
+
+          <div class="search-product pos-relative bo4 of-hidden">
+            <input class="s-text7 size6 p-l-23 p-r-50" type="text" name="search-product" placeholder="Search Products...">
+
+            <button class="flex-c-m size5 ab-r-m color2 color0-hov trans-0-4">
+              <i class="fs-12 fa fa-search" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-8 col-lg-9 p-b-50">
+        <!--  -->
+        <div class="flex-sb-m flex-w p-b-35">
+          <div class="flex-w">
+            <div class="rs2-select2 bo4 of-hidden w-size12 m-t-5 m-b-5 m-r-10">
+              <select class="selection-2" name="sorting">
+                <option>Default Sorting</option>
+                <option>Popularity</option>
+                <option>Price: low to high</option>
+                <option>Price: high to low</option>
+              </select>
+            </div>
+
+            <div class="rs2-select2 bo4 of-hidden w-size12 m-t-5 m-b-5 m-r-10">
+              <select class="selection-2" name="sorting">
+                <option>Price</option>
+                <option>$0.00 - $50.00</option>
+                <option>$50.00 - $100.00</option>
+                <option>$100.00 - $150.00</option>
+                <option>$150.00 - $200.00</option>
+                <option>$200.00+</option>
+
+              </select>
+            </div>
+          </div>
+
+          <span class="s-text8 p-t-5 p-b-5">
+            Showing 1–12 of 16 results
+          </span>
+        </div>
+
+  					<!-- Product -->
+  					<div class="row">
+  						<div class="col-sm-12 col-md-6 col-lg-4 p-b-50">
+  							<!-- Block2 -->
+  							<div class="block2">
+  								<div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelnew">
+  									<img src="https://img.secure.cdn2.wmgecom.com/media/catalog/product/cache/1534/image/1200x/9df78eab33525d08d6e5fb8d27136e95/1/8/18grz_brushedlogo_hood.jpg" alt="IMG-PRODUCT">
+
+  									<div class="block2-overlay trans-0-4">
+  										<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
+  											<i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
+  											<i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
+  										</a>
+
+  										<div class="block2-btn-addcart w-size1 trans-0-4">
+  											<!-- Button -->
+  											<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
+  												Add to Cart
+  											</button>
+  										</div>
+  									</div>
+  								</div>
+
+  								<div class="block2-txt p-t-20">
+  									<a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
+  										Brushed Font Logo Hoodie Black
+  									</a>
+
+  									<span class="block2-price m-text6 p-r-5">
+  										$60.00
+  									</span>
+  								</div>
+  							</div>
+  						</div>
+
+  						<div class="col-sm-12 col-md-6 col-lg-4 p-b-50">
+  							<!-- Block2 -->
+  							<div class="block2">
+  								<div class="block2-img wrap-pic-w of-hidden pos-relative">
+  									<img src="https://img.secure.cdn2.wmgecom.com/media/catalog/product/cache/1534/image/1200x/9df78eab33525d08d6e5fb8d27136e95/1/8/18grz_brushedfontfannypack.jpg" alt="IMG-PRODUCT">
+
+  									<div class="block2-overlay trans-0-4">
+  										<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
+  											<i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
+  											<i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
+  										</a>
+
+  										<div class="block2-btn-addcart w-size1 trans-0-4">
+  											<!-- Button -->
+  											<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
+  												Add to Cart
+  											</button>
+  										</div>
+  									</div>
+  								</div>
+
+  								<div class="block2-txt p-t-20">
+  									<a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
+  										Brushed Font Fanny Pack
+  									</a>
+
+  									<span class="block2-price m-text6 p-r-5">
+  										$30.00
+  									</span>
+  								</div>
+  							</div>
+  						</div>
+
+  						<div class="col-sm-12 col-md-6 col-lg-4 p-b-50">
+  							<!-- Block2 -->
+  							<div class="block2">
+  								<div class="block2-img wrap-pic-w of-hidden pos-relative">
+  									<img src="https://img.secure.cdn2.wmgecom.com/media/catalog/product/cache/1534/image/1200x/9df78eab33525d08d6e5fb8d27136e95/1/8/18grz_buckethat.jpg" alt="IMG-PRODUCT">
+
+  									<div class="block2-overlay trans-0-4">
+  										<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
+  											<i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
+  											<i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
+  										</a>
+
+  										<div class="block2-btn-addcart w-size1 trans-0-4">
+  											<!-- Button -->
+  											<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
+  												Add to Cart
+  											</button>
+  										</div>
+  									</div>
+  								</div>
+
+  								<div class="block2-txt p-t-20">
+  									<a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
+  										Reversible Chevron Bucket Hat
+  									</a>
+
+  									<span class="block2-price m-text6 p-r-5">
+  										$30.00
+  									</span>
+  								</div>
+  							</div>
+  						</div>
+
+  						<div class="col-sm-12 col-md-6 col-lg-4 p-b-50">
+  							<!-- Block2 -->
+  							<div class="block2">
+  								<div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelsale">
+  									<img src="https://img.secure.cdn2.wmgecom.com/media/catalog/product/cache/1534/image/1200x/9df78eab33525d08d6e5fb8d27136e95/1/8/18grz_2dheadphone.jpg" alt="IMG-PRODUCT">
+
+  									<div class="block2-overlay trans-0-4">
+  										<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
+  											<i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
+  											<i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
+  										</a>
+
+  										<div class="block2-btn-addcart w-size1 trans-0-4">
+  											<!-- Button -->
+  											<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
+  												Add to Cart
+  											</button>
+  										</div>
+  									</div>
+  								</div>
+
+  								<div class="block2-txt p-t-20">
+  									<a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
+  										2D Headphone Ringer T-shirt
+  									</a>
+
+  									<span class="block2-oldprice m-text7 p-r-5">
+  										$30.00
+  									</span>
+
+  									<span class="block2-newprice m-text8 p-r-5">
+  										$29.99
+  									</span>
+  								</div>
+  							</div>
+  						</div>
+
+  						<div class="col-sm-12 col-md-6 col-lg-4 p-b-50">
+  							<!-- Block2 -->
+  							<div class="block2">
+  								<div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelnew">
+  									<img src="https://img.secure.cdn2.wmgecom.com/media/catalog/product/cache/1534/image/1200x/9df78eab33525d08d6e5fb8d27136e95/1/8/18grz_brushedfontlogo_pink.jpg
+                    " alt="IMG-PRODUCT">
+
+  									<div class="block2-overlay trans-0-4">
+  										<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
+  											<i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
+  											<i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
+  										</a>
+
+  										<div class="block2-btn-addcart w-size1 trans-0-4">
+  											<!-- Button -->
+  											<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
+  												Add to Cart
+  											</button>
+  										</div>
+  									</div>
+  								</div>
+
+  								<div class="block2-txt p-t-20">
+  									<a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
+  										Brushed Font Logo T-shirt Pink
+  									</a>
+
+  									<span class="block2-price m-text6 p-r-5">
+  										$30.00
+  									</span>
+  								</div>
+  							</div>
+  						</div>
+
+  						<div class="col-sm-12 col-md-6 col-lg-4 p-b-50">
+  							<!-- Block2 -->
+  							<div class="block2">
+  								<div class="block2-img wrap-pic-w of-hidden pos-relative">
+  									<img src="https://img.secure.cdn2.wmgecom.com/media/catalog/product/cache/1534/image/1200x/9df78eab33525d08d6e5fb8d27136e95/1/8/18grz_brushedfontlogo_turquoise.jpg" alt="IMG-PRODUCT">
+
+  									<div class="block2-overlay trans-0-4">
+  										<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
+  											<i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
+  											<i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
+  										</a>
+
+  										<div class="block2-btn-addcart w-size1 trans-0-4">
+  											<!-- Button -->
+  											<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
+  												Add to Cart
+  											</button>
+  										</div>
+  									</div>
+  								</div>
+
+  								<div class="block2-txt p-t-20">
+  									<a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
+  										Brushed Font Logo T-shirt Turquoise
+  									</a>
+
+  									<span class="block2-price m-text6 p-r-5">
+  										$30.00
+  									</span>
+  								</div>
+  							</div>
+  						</div>
+
+  						<div class="col-sm-12 col-md-6 col-lg-4 p-b-50">
+  							<!-- Block2 -->
+  							<div class="block2">
+  								<div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelnew">
+  									<img src="https://img.secure.cdn2.wmgecom.com/media/catalog/product/cache/1534/image/1200x/9df78eab33525d08d6e5fb8d27136e95/1/8/18grz_russel_glasses_circle_tank_white.jpg" alt="IMG-PRODUCT">
+
+  									<div class="block2-overlay trans-0-4">
+  										<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
+  											<i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
+  											<i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
+  										</a>
+
+  										<div class="block2-btn-addcart w-size1 trans-0-4">
+  											<!-- Button -->
+  											<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
+  												Add to Cart
+  											</button>
+  										</div>
+  									</div>
+  								</div>
+
+  								<div class="block2-txt p-t-20">
+  									<a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
+  										Russel Glasses Circle Tank White
+  									</a>
+
+  									<span class="block2-price m-text6 p-r-5">
+  										$30.00
+  									</span>
+  								</div>
+  							</div>
+  						</div>
+
+  						<div class="col-sm-12 col-md-6 col-lg-4 p-b-50">
+  							<!-- Block2 -->
+  							<div class="block2">
+  								<div class="block2-img wrap-pic-w of-hidden pos-relative">
+  									<img src="https://img.secure.cdn2.wmgecom.com/media/catalog/product/cache/1534/image/1200x/9df78eab33525d08d6e5fb8d27136e95/1/8/18grz_ustourtee.jpg" alt="IMG-PRODUCT">
+
+  									<div class="block2-overlay trans-0-4">
+  										<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
+  											<i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
+  											<i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
+  										</a>
+
+  										<div class="block2-btn-addcart w-size1 trans-0-4">
+  											<!-- Button -->
+  											<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
+  												Add to Cart
+  											</button>
+  										</div>
+  									</div>
+  								</div>
+
+  								<div class="block2-txt p-t-20">
+  									<a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
+  										2D Seated US 2018 Tour T-shirt
+  									</a>
+
+  									<span class="block2-price m-text6 p-r-5">
+  										$30.00
+  									</span>
+  								</div>
+  							</div>
+  						</div>
+
+  						<div class="col-sm-12 col-md-6 col-lg-4 p-b-50">
+  							<!-- Block2 -->
+  							<div class="block2">
+  								<div class="block2-img wrap-pic-w of-hidden pos-relative">
+  									<img src="https://img.secure.cdn2.wmgecom.com/media/catalog/product/cache/1534/image/1200x/9df78eab33525d08d6e5fb8d27136e95/1/8/18grz_usgrouptee.jpg" alt="IMG-PRODUCT">
+
+  									<div class="block2-overlay trans-0-4">
+  										<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
+  											<i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
+  											<i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
+  										</a>
+
+  										<div class="block2-btn-addcart w-size1 trans-0-4">
+  											<!-- Button -->
+  											<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
+  												Add to Cart
+  											</button>
+  										</div>
+  									</div>
+  								</div>
+
+  								<div class="block2-txt p-t-20">
+  									<a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
+  										Group Shot US 2018 Tour T-shirt
+  									</a>
+
+  									<span class="block2-price m-text6 p-r-5">
+  										$30.00
+  									</span>
+  								</div>
+  							</div>
+  						</div>
+
+  						<div class="col-sm-12 col-md-6 col-lg-4 p-b-50">
+  							<!-- Block2 -->
+  							<div class="block2">
+  								<div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelsale">
+  									<img src="https://img.secure.cdn2.wmgecom.com/media/catalog/product/cache/1534/image/1200x/9df78eab33525d08d6e5fb8d27136e95/1/8/18grz_usbootyshorts.jpg" alt="IMG-PRODUCT">
+
+  									<div class="block2-overlay trans-0-4">
+  										<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
+  											<i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
+  											<i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
+  										</a>
+
+  										<div class="block2-btn-addcart w-size1 trans-0-4">
+  											<!-- Button -->
+  											<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
+  												Add to Cart
+  											</button>
+  										</div>
+  									</div>
+  								</div>
+
+  								<div class="block2-txt p-t-20">
+  									<a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
+  										2D Booty Shorts
+  									</a>
+
+  									<span class="block2-oldprice m-text7 p-r-5">
+  										$35.00
+  									</span>
+
+  									<span class="block2-newprice m-text8 p-r-5">
+  										$32.50
+  									</span>
+  								</div>
+  							</div>
+  						</div>
+
+  						<div class="col-sm-12 col-md-6 col-lg-4 p-b-50">
+  							<!-- Block2 -->
+  							<div class="block2">
+  								<div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelnew">
+  									<img src="https://img.secure.cdn2.wmgecom.com/media/catalog/product/cache/1534/image/1200x/9df78eab33525d08d6e5fb8d27136e95/1/8/18grz_2dheadphonekoozie.jpg" alt="IMG-PRODUCT">
+
+  									<div class="block2-overlay trans-0-4">
+  										<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
+  											<i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
+  											<i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
+  										</a>
+
+  										<div class="block2-btn-addcart w-size1 trans-0-4">
+  											<!-- Button -->
+  											<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
+  												Add to Cart
+  											</button>
+  										</div>
+  									</div>
+  								</div>
+
+  								<div class="block2-txt p-t-20">
+  									<a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
+  										2D Headphone Koozie
+  									</a>
+
+  									<span class="block2-price m-text6 p-r-5">
+  										$5.00
+  									</span>
+  								</div>
+  							</div>
+  						</div>
+
+  						<div class="col-sm-12 col-md-6 col-lg-4 p-b-50">
+  							<!-- Block2 -->
+  							<div class="block2">
+  								<div class="block2-img wrap-pic-w of-hidden pos-relative">
+  									<img src="https://img.secure.cdn2.wmgecom.com/media/catalog/product/cache/1534/image/1200x/9df78eab33525d08d6e5fb8d27136e95/1/8/18grz_glowstick_set.jpg" alt="IMG-PRODUCT">
+
+  									<div class="block2-overlay trans-0-4">
+  										<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
+  											<i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
+  											<i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
+  										</a>
+
+  										<div class="block2-btn-addcart w-size1 trans-0-4">
+  											<!-- Button -->
+  											<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
+  												Add to Cart
+  											</button>
+  										</div>
+  									</div>
+  								</div>
+
+  								<div class="block2-txt p-t-20">
+  									<a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
+  										Glow Sticks
+  									</a>
+
+  									<span class="block2-price m-text6 p-r-5">
+  										$10.00
+  									</span>
+  								</div>
+  							</div>
+  						</div>
+  					</div>
+
+  					<!-- Pagination -->
+  					<div class="pagination flex-m flex-w p-t-26">
+  						<a href="#" class="item-pagination flex-c-m trans-0-4 active-pagination">1</a>
+  						<a href="#" class="item-pagination flex-c-m trans-0-4">2</a>
+  					</div>
+  				</div>
+  			</div>
+  		</div>
+  	</section>
+
+    <!-- ##### CTA Area Start ##### -->
+    <div class="musica-cta-area section-padding-100 bg-img bg-overlay2" style="background-image: url(https://fsmedia.imgix.net/86/c5/f3/08/e15a/4036/9369/9c0312d87518/gorillaz-finger-pointpngx56677.png?rect=0%2C0%2C850%2C425&auto=format%2Ccompress&dpr=2&w=650);">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="cta-content d-flex justify-content-between align-items-center">
+                        <div class="cta-text">
+                            <h4>Learn About Us Now</h4>
+                            <h2>Who are we?</h2>
+                            <h6>See our journey in becoming Gorillaz</h6>
+                        </div>
+                        <div class="cta-btn">
+                            <a href="about-us.html" class="btn musica-btn">About Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ##### CTA Area End ##### -->
+
+    <!-- ##### Footer Area Start ##### -->
+    <footer class="footer-area section-padding-100-0">
+        <div class="container-fluid">
+            <div class="row">
+
+                <!-- Footer Widget Area -->
+                <div class="col-12 col-md-6 col-xl-3">
+                    <div class="footer-widget-area mb-100">
+                        <a href="#"><img src="https://i.redd.it/ufq2moe3zhz11.png" alt=""></a>
+                        <p class="copywrite-text"><a href="#">Colorlib 2018</a> @ All rights reserved</p>
+                    </div>
+                </div>
+
+                <!-- Footer Widget Area -->
+                <div class="col-12 col-sm-4 col-xl-2">
+                    <div class="footer-widget-area mb-100">
+                        <div class="widget-title">
+                            <h4>About</h4>
+                        </div>
+                        <nav>
+                            <ul class="footer-nav">
+                                <li><a href="#">About us</a></li>
+                                <li><a href="#">Our Services</a></li>
+                                <li><a href="#">The team</a></li>
+                                <li><a href="#">Careers</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+                <!-- Footer Widget Area -->
+                <div class="col-12 col-sm-4 col-xl-2">
+                    <div class="footer-widget-area mb-100">
+                        <div class="widget-title">
+                            <h4>Links</h4>
+                        </div>
+                        <nav>
+                            <ul class="footer-nav">
+                                <li><a href="#">About us</a></li>
+                                <li><a href="#">Booking Us</a></li>
+                                <li><a href="#">Our Team</a></li>
+                                <li><a href="#">Careers</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+                <!-- Footer Widget Area -->
+                <div class="col-12 col-sm-4 col-xl-2">
+                    <div class="footer-widget-area mb-100">
+                        <div class="widget-title">
+                            <h4>Social</h4>
+                        </div>
+                        <nav>
+                            <ul class="footer-nav">
+                                <li><a href="#">Instagram</a></li>
+                                <li><a href="#">Snapchat</a></li>
+                                <li><a href="#">Twitter</a></li>
+                                <li><a href="#">Facebook</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+                <!-- Footer Widget Area -->
+                <div class="col-12 col-md-6 col-xl-3">
+                    <div class="footer-widget-area mb-100">
+                        <div class="widget-title">
+                            <h4>Subscribe</h4>
+                        </div>
+                        <form action="#" method="post" class="subscribe-form">
+                            <input type="email" name="subscribe-email" id="subscribeemail">
+                            <button type="submit">subscribe</button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <!-- ##### Footer Area Start ##### -->
+
+    <!-- ##### All Javascript Script ##### -->
+    <!-- jQuery-2.2.4 js -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/bootstrap/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- All Plugins js -->
+    <script src="js/plugins/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+</body>
+
+</html>
